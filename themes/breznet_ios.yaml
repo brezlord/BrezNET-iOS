@@ -1,0 +1,250 @@
+# Home Assistant
+# Theme based on Apple iOS colors
+# Creator: Brezlord
+# Website: https://www.breznet.com
+#
+BrezNET iOS:
+  # Apple Colors from https://developer.apple.com/design/human-interface-guidelines/color
+  # iOS, iPadOS system colors
+  system-red-light: 255, 59, 48
+  system-red-dark: 255, 69, 58
+  system-orange-light: 255, 149, 0
+  system-orange-dark: 255, 159, 10
+  system-yellow-light: 255, 204, 0
+  system-yellow-dark: 255, 214, 10
+  system-green-light: 52, 199, 89
+  system-green-dark: 48, 209, 88
+  system-mint-light: 0, 199, 190
+  system-mint-dark: 99, 230, 226
+  system-teal-light: 48, 176, 199
+  system-teal-dark: 64, 200, 224
+  system-cyan-light: 50, 173, 230
+  system-cyan-dark: 100, 210, 255
+  system-blue-light: 0, 122, 225
+  system-blue-dark: 10, 132, 225
+  system-indigo-light: 88, 86, 214
+  system-indigo-dark: 94, 92, 230
+  system-purple-light: 175, 82, 222
+  system-purple-dark: 191, 90, 242
+  system-pink-light: 255, 45, 85
+  system-pink-dark: 255, 55, 95
+  system-brown-light: 162, 132, 94
+  system-brown-dark: 172, 142, 104
+  # iOS, iPadOS system gray colors
+  system-gray-light: 142, 142, 147
+  system-gray-dark: 142, 142, 147
+  system-gray2-light: 174, 174, 178
+  system-gray2-dark: 99, 99, 102
+  system-gray3-light: 199, 199, 204
+  system-gray3-dark: 72, 72, 74
+  system-gray4-light: 209, 209, 214
+  system-gray4-dark: 58, 58, 60
+  system-gray5-light: 229, 229, 234
+  system-gray5-dark: 44, 44, 46
+  system-gray6-light: 242, 242, 247
+  system-gray6-dark: 28, 28, 30
+  system-black: 0, 0, 0
+  #Fonts
+  primary-font-family: "SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif"
+  secondary-font-family: "SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif"
+  paper-font-common-base_-_font-family: "var(--secondary-font-family)"
+  paper-font-common-code_-_font-family: "var(--secondary-font-family)"
+  paper-font-body1_-_font-family: "var(--secondary-font-family)"
+  paper-font-subhead_-_font-family: "var(--secondary-font-family)"
+  paper-font-headline_-_font-family: "var(--primary-font-family)"
+  paper-font-caption_-_font-family: "var(--secondary-font-family)"
+  paper-font-title_-_font-family: "var(--primary-font-family)"
+  ha-card-header-font-family: "var(--primary-font-family)"
+  modes:
+# Light Mode
+    light:
+      # Global
+      #background-image: "center / cover no-repeat fixed url('/hacsfiles/themes/breznet_ios/light-grey.jpg')"
+      #lovelace-background: var(--background-image)
+      # Header:
+      app-header-background-color: var(--primary-background-color)
+      app-header-text-color: var(--light-primary-color)
+      # Main Interface Colors
+      primary-color: rgba(var(--system-blue-dark))
+      light-primary-color: rgba(var(--system-gray5-dark))  # (icons on left menu)
+      primary-background-color: rgba(var(--system-gray6-light))
+      secondary-background-color: rgba(var(--system-gray3-light))
+      divider-color: rgba(var(--system-gray-light))
+      accent-color: rgba(var(--system-blue-light))
+      # Text
+      primary-text-color: rgba(var(--system-gray3-dark))
+      secondary-text-color: rgba(var(--system-gray5-dark))
+      text-primary-color: rgba(var(--system-gray5-light))
+      disabled-text-color: rgba(var(--system-gray-light))
+      text-dark-color: "#FFF"
+      # Sidebar Menu
+      sidebar-background-color: var(--primary-background-color)
+      sidebar-icon-color: var(--light-primary-color)
+      sidebar-text-color: var(--light-primary-color)
+      sidebar-selected-background-color: var(--secondary-background-color)
+      sidebar-selected-icon-color: rgba(var(--system-gray-light))
+      sidebar-selected-text-color: var(--sidebar-selected-icon-color)
+      # Buttons
+      paper-item-icon-color: rgba(var(--system-gray3-dark))  # also should mini-media-player icon white (but doesn't work by itself)
+      paper-item-icon-active-color: rgba(var(--system-green-light))
+      # States and Badges
+      state-icon-color: "#FFF"
+      state-icon-active-color: rgba(var(--system-green-light))
+      state-icon-unavailable-color: rgba(var(--disabled-text-color))
+      # Sliders
+      paper-slider-knob-color: rgba(var(--system-gray4-light))
+      paper-slider-knob-start-color: var(--paper-slider-knob-color)
+      paper-slider-pin-color: var(--paper-slider-knob-color)
+      paper-slider-active-color: rgba(var(--system-blue-light))
+      paper-slider-secondary-color: var(--paper-slider-knob-color)
+      paper-slider-container-color: rgba(255, 255, 255, 0.5)
+      paper-slider-font-color: "#000"
+      ha-slider-background: none !important
+      # Labels
+      label-badge-background-color: rgba(var(--system-gray5-dark))
+      label-badge-text-color: rgba(var(--system-gray5-light))
+      label-badge-red: rgba(var(--system-red-light))
+      label-badge-green: rgba(var(--system-green-light))
+      label-badge-blue: rgba(var(--system-blue-light))
+      label-badge-yellow: rgba(var(--system-yellow-light))
+      label-badge-gray: rgba(var(--system-grey-light))
+      # Cards
+      card-background-color: var(--secondary-background-color)  # Unused entities table background
+      paper-listbox-background-color: var(--primary-background-color)
+      paper-listbox-color: rgba(var(--system-gray3-dark)) #Navigation menu selection text; including the text in top right menu
+      ha-card-border-radius: 0px
+      ha-card-background: rgba(var(--system-gray5-light), 0.4)
+      paper-card-background-color: var(--ha-card-background)
+      # Toggles
+      paper-toggle-button-checked-button-color: rgba(var(--system-gray3-dark))
+      paper-toggle-button-checked-bar-color: rgba(var(--system-gray3-dark))
+      paper-toggle-button-unchecked-button-color: var(--paper-toggle-button-checked-button-color)
+      paper-toggle-button-unchecked-bar-color: var(--disabled-text-color)
+      # Table
+      table-row-background-color: var(--primary-background-color)
+      table-row-alternative-background-color: var(--secondary-background-color)
+      # Dropdowns
+      material-background-color: var(--card-background-color)
+      material-secondary-background-color: var(--primary-background-color)
+      mdc-theme-surface: var(--secondary-background-color)
+      # Switches
+      switch-checked-color: rgba(var(--system-green-light))
+      switch-checked-track-color: rgba(var(--system-green-light))
+      switch-checked-button-color: rgba(var(--system-gray4-light))
+      switch-unchecked-track-color: rgba(var(--system-gray2-light))
+      switch-unchecked-button-color: rgba(var(--system-gray4-light))
+      # Input
+      input-ink-color: var(--primary-text-color)
+      input-fill-color: transparent
+      input-disabled-fill-color: transparent
+      input-label-ink-color: var(--primary-text-color)
+      input-disabled-ink-color: var(--disabled-text-color)
+      input-dropdown-icon-color: var(--primary-text-color)
+      input-idle-line-color: var(--secondary-text-color)
+      input-hover-line-color: var(--secondary-text-color)
+      # Other
+      paper-dialog-background-color: rgba(var(--system-gray5-light), 0.7)  # Background of more-info
+      more-info-header-background: rgba(var(--system-gray2-light))
+      lumo-body-text-color: var(--primary-text-color)
+      # Custom
+      mdc-checkbox-unchecked-color: var(--primary-text-color)
+      mcg-title-letter-spacing: .15em
+      mini-media-player-base-color: white
+      mini-media-player-icon-color: white
+      #codemirror-property: var(--accent-color)
+# Dark Mode
+    dark:
+      # Global
+      #background-image: "center / cover no-repeat fixed url('/hacsfiles/themes/breznet_ios/light-grey.jpg')"
+      #lovelace-background: var(--background-image)
+      # Header:
+      app-header-background-color: rgba(var(--system-black))
+      app-header-text-color: rgba(var(--system-gray3-light))
+      # Main Interface Colors
+      primary-color: rgba(var(--system-blue-light))
+      light-primary-color: rgba(var(--system-gray5-light))  # (icons on left menu)
+      primary-background-color: rgba(var(--system-black)) # Page background
+      secondary-background-color: rgba(var(--system-gray6-dark)) # Card background
+      divider-color: rgba(var(--system-gray-dark))
+      accent-color: rgba(var(--system-blue-dark))
+      # Text
+      primary-text-color: rgba(var(--system-gray3-light))
+      secondary-text-color: rgba(var(--system-gray5-light))
+      text-primary-color: rgba(var(--system-gray5-dark))
+      disabled-text-color: rgba(var(--system-gray-dark))
+      text-dark-color: "#FFF"
+      # Sidebar Menu
+      sidebar-background-color: var(--primary-background-color)
+      sidebar-icon-color: var(--light-primary-color)
+      sidebar-text-color: var(--light-primary-color)
+      sidebar-selected-background-color: var(--secondary-background-color)
+      sidebar-selected-icon-color: rgba(var(--system-gray-dark))
+      sidebar-selected-text-color: var(--sidebar-selected-icon-color)
+      # Buttons
+      paper-item-icon-color: rgba(var(--system-gray3-light))  # also should mini-media-player icon white (but doesn't work by itself)
+      paper-item-icon-active-color: rgba(var(--system-green-dark))
+      # States and Badges
+      state-icon-color: "#FFF"
+      state-icon-active-color: rgba(var(--system-green-dark))
+      state-icon-unavailable-color: rgba(var(--disabled-text-color))
+      # Sliders
+      paper-slider-knob-color: rgba(var(--system-gray4-light))
+      paper-slider-knob-start-color: var(--paper-slider-knob-color)
+      paper-slider-pin-color: var(--paper-slider-knob-color)
+      paper-slider-active-color: rgba(var(--system-blue-dark))
+      paper-slider-secondary-color: var(--paper-slider-knob-color)
+      paper-slider-container-color: rgba(255, 255, 255, 0.5)
+      paper-slider-font-color: "#000"
+      ha-slider-background: none !important
+      # Labels
+      label-badge-background-color: rgba(var(--system-gray5-light))
+      label-badge-text-color: rgba(var(--system-gray5-dark))
+      label-badge-red: rgba(var(--system-red-dark))
+      label-badge-green: rgba(var(--system-green-dark))
+      label-badge-blue: rgba(var(--system-blue-dark))
+      label-badge-yellow: rgba(var(--system-yellow-dark))
+      label-badge-gray: rgba(var(--system-grey-dark))
+      # Cards
+      card-background-color: var(--secondary-background-color)  # Unused entities table background
+      paper-listbox-background-color: var(--primary-background-color)
+      paper-listbox-color: rgba(var(--system-gray3-light)) #Navigation menu selection text; including the text in top right menu
+      ha-card-border-radius: 0px
+      ha-card-background: rgba(var(--system-gray5-dark), 0.4)
+      paper-card-background-color: var(--ha-card-background)
+      # Toggles
+      paper-toggle-button-checked-button-color: rgba(var(--system-gray3-light))
+      paper-toggle-button-checked-bar-color: rgba(var(--system-gray3-light))
+      paper-toggle-button-unchecked-button-color: var(--paper-toggle-button-checked-button-color)
+      paper-toggle-button-unchecked-bar-color: var(--disabled-text-color)
+      # Table
+      table-row-background-color: var(--primary-background-color)
+      table-row-alternative-background-color: var(--secondary-background-color)
+      # Dropdowns
+      material-background-color: var(--card-background-color)
+      material-secondary-background-color: var(--primary-background-color)
+      mdc-theme-surface: var(--secondary-background-color)
+      # Switches
+      switch-checked-color: rgba(var(--system-green-dark))
+      switch-checked-track-color: rgba(var(--system-green-dark))
+      switch-checked-button-color: rgba(var(--system-gray4-light))
+      switch-unchecked-track-color: rgba(var(--system-gray2-dark))
+      switch-unchecked-button-color: rgba(var(--system-gray4-light))
+      # Input
+      input-ink-color: var(--primary-text-color)
+      input-fill-color: transparent
+      input-disabled-fill-color: transparent
+      input-label-ink-color: var(--primary-text-color)
+      input-disabled-ink-color: var(--disabled-text-color)
+      input-dropdown-icon-color: var(--primary-text-color)
+      input-idle-line-color: var(--secondary-text-color)
+      input-hover-line-color: var(--secondary-text-color)
+      # Other
+      paper-dialog-background-color: rgba(var(--system-gray5-dark), 0.7)  # Background of more-info
+      more-info-header-background: rgba(var(--system-gray2-dark))
+      lumo-body-text-color: var(--primary-text-color)
+      # Custom
+      mdc-checkbox-unchecked-color: var(--primary-text-color)
+      mcg-title-letter-spacing: .15em
+      mini-media-player-base-color: white
+      mini-media-player-icon-color: white
+      #codemirror-property: var(--accent-color)
