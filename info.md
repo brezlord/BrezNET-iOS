@@ -1,5 +1,28 @@
 # BrezNET-iOS
-Home Assistant theme based on Apple iOS colours.
+## Home Assistant theme based on Apple iOS colours.
+
+[![hacs_badge](https://img.shields.io/badge/HACS-Default-orange.svg)](https://github.com/hacs/integration)
+[![homeassistant_community](https://img.shields.io/badge/HA%20community-forum-brightgreen)](https://test)
+[![Github Stars](https://img.shields.io/github/stars/brezlord/BrezNET-iOS)](https://github.com/brezlord/BrezNET-iOS)
+
+Created by [BrezLord](https://github.com/brezlord) for Home Assistant.
+
+This theme has been designed to work on the Samsung Galaxy Tab A (2019, 10.1") [SM-T510] as a wall mounted display for Home Assistant. The theme displays equally as good on mobile devices.
+
+The theme is based on Apple Colors from - https://developer.apple.com/design/human-interface-guidelines/color
+
+Clolor palette used iOS, iPadOS and system grey colors.
+
+The following addons were used in addition to the built in cards to create the below examples.
+- [Button Card](https://github.com/custom-cards/button-card)
+- [Fan Control Entity Row](https://github.com/finity69x2/fan-control-entity-row)
+- [Atomic Calendar Revive](https://github.com/totaldebug/atomic-calendar-revive)
+- [Clock Weather Card](https://github.com/pkissling/clock-weather-card)
+- [Platinum Weather Card](https://github.com/Makin-Things/platinum-weather-card)
+- [Layout-card](https://github.com/thomasloven/lovelace-layout-card)
+- [Frigate Home Assistant Integration](https://github.com/blakeblackshear/frigate-hass-integration)
+
+I plan on continuing to develop and improve this theme.
 
 Main Dark
 ![](https://github.com/brezlord/BrezNET-iOS/blob/main/docs/main-dark.png)
@@ -12,15 +35,6 @@ Main Light
 
 Lights Light
 ![](https://github.com/brezlord/BrezNET-iOS/blob/main/docs/lights-light.png)
-
-Created by [BrezLord](https://github.com/brezlord) for Home Assistant
-This theme has been designed to work on Samsung Galaxy Tab A (2019, 10.1") [SM-T510] as a wall mounted display for Home Assistant. The theme displays equally as good on mobile devices.
-
-The theme is based on Apple Colors from - https://developer.apple.com/design/human-interface-guidelines/color
-
-Clolor palette used iOS, iPadOS and system grey colors.
-
-I plan on continuing to develop and improve this theme.
 
 # Installation
 
