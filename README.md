@@ -12,6 +12,7 @@ The following addons were used to create the below examples.
 - [Atomic Calendar Revive](https://github.com/totaldebug/atomic-calendar-revive)
 - [Clock Weather Card](https://github.com/pkissling/clock-weather-card)
 - [Platinum Weather Card](https://github.com/Makin-Things/platinum-weather-card)
+- [Layout-card](https://github.com/thomasloven/lovelace-layout-card)
 - [Frigate Home Assistant Integration](https://github.com/blakeblackshear/frigate-hass-integration)
 
 Main Dark
