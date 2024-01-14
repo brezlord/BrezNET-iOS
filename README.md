@@ -6,6 +6,14 @@
 
 Home Assistant theme based on Apple iOS colours.
 
+The following addons were used to create the below examples.
+- [Button Card](https://github.com/custom-cards/button-card)
+- [Fan Control Entity Row](https://github.com/finity69x2/fan-control-entity-row)
+- [Atomic Calendar Revive](https://github.com/totaldebug/atomic-calendar-revive)
+- [Clock Weather Card](https://github.com/pkissling/clock-weather-card)
+- [Platinum Weather Card](https://github.com/Makin-Things/platinum-weather-card)
+- [Frigate Home Assistant Integration](https://github.com/blakeblackshear/frigate-hass-integration)
+
 Main Dark
 ![](https://github.com/brezlord/BrezNET-iOS/blob/main/docs/main-dark.png)
 
