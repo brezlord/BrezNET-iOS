@@ -5,8 +5,9 @@
 [![homeassistant_community](https://img.shields.io/badge/HA%20community-forum-brightgreen)](https://test)
 [![Github Stars](https://img.shields.io/github/stars/brezlord/BrezNET-iOS)](https://github.com/brezlord/BrezNET-iOS)
 
-Created by [BrezLord](https://github.com/brezlord) for Home Assistant
-This theme has been designed to work on Samsung Galaxy Tab A (2019, 10.1") [SM-T510] as a wall mounted display for Home Assistant. The theme displays equally as good on mobile devices.
+Created by [BrezLord](https://github.com/brezlord) for Home Assistant.
+
+This theme has been designed to work on the Samsung Galaxy Tab A (2019, 10.1") [SM-T510] as a wall mounted display for Home Assistant. The theme displays equally as good on mobile devices.
 
 The theme is based on Apple Colors from - https://developer.apple.com/design/human-interface-guidelines/color
 
