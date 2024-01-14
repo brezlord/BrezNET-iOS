@@ -1,9 +1,10 @@
 # BrezNET-iOS
+
+Home Assistant theme based on Apple iOS colours.
+
 [![hacs_badge](https://img.shields.io/badge/HACS-Default-orange.svg)](https://github.com/hacs/integration)
 [![homeassistant_community](https://img.shields.io/badge/HA%20community-forum-brightgreen)](https://test)
 [![Github Stars](https://img.shields.io/github/stars/brezlord/BrezNET-iOS)](https://github.com/brezlord/BrezNET-iOS)
-
-Home Assistant theme based on Apple iOS colours.
 
 Main Dark
 ![](https://github.com/brezlord/BrezNET-iOS/blob/main/docs/main-dark.png)
