@@ -1,9 +1,28 @@
-# BrezNET-iOS
-## Home Assistant theme based on Apple iOS colours.
+<h1>BrezNET-iOS</h1>
+<p>
+	<a href="https://github.com/brezlord/BrezNET-iOS/stargazers"><img src="https://img.shields.io/github/stars/brezlord/BrezNET-iOS?colorA=363a4f&colorB=ffc300&style=for-the-badge"></a>
+	<a href="https://github.com/brezlord/BrezNET-iOS/issues"><img src="https://img.shields.io/github/issues/brezlord/BrezNET-iOS?colorA=363a4f&colorB=f5a97f&style=for-the-badge"></a>
+	<a href="https://github.com/brezlord/BrezNET-iOS/pulls"><img src="https://img.shields.io/github/issues-pr/brezlord/BrezNET-iOS?colorA=363a4f&colorB=a6da95&style=for-the-badge"></a>
+</p>
 
-[![hacs_badge](https://img.shields.io/badge/HACS-Default-orange.svg)](https://github.com/hacs/integration)
-[![homeassistant_community](https://img.shields.io/badge/HA%20community-forum-brightgreen)](https://test)
-[![Github Stars](https://img.shields.io/github/stars/brezlord/BrezNET-iOS)](https://github.com/brezlord/BrezNET-iOS)
+# Home Assistant theme based on Apple iOS colours
+
+<p align="center">
+	<img src="https://raw.githubusercontent.com/brezlord/BrezNET-iOS/main/docs/main-dark.png"/>
+</p>
+
+## Previews
+
+<details>
+<summary>🌚Dark</summary>
+<img src="https://raw.githubusercontent.com/brezlord/BrezNET-iOS/main/docs/main-dark.png"/>
+<img src="https://raw.githubusercontent.com/brezlord/BrezNET-iOS/main/docs/lights-dark.png"/>
+</details>
+<details>
+<summary>🌞Light</summary>
+<img src="https://raw.githubusercontent.com/brezlord/BrezNET-iOS/main/docs/main-light.png"/>
+<img src="https://raw.githubusercontent.com/brezlord/BrezNET-iOS/main/docs/lights-light.png"/>
+</details>
 
 Created by [BrezLord](https://github.com/brezlord) for Home Assistant.
 
@@ -23,18 +42,6 @@ The following addons were used in addition to the built in cards to create the b
 - [Frigate Home Assistant Integration](https://github.com/blakeblackshear/frigate-hass-integration)
 
 I plan on continuing to develop and improve this theme.
-
-Main Dark
-![](https://github.com/brezlord/BrezNET-iOS/blob/main/docs/main-dark.png)
-
-Lights Dark
-![](https://github.com/brezlord/BrezNET-iOS/blob/main/docs/lights-dark.png)
-
-Main Light
-![](https://github.com/brezlord/BrezNET-iOS/blob/main/docs/main-light.png)
-
-Lights Light
-![](https://github.com/brezlord/BrezNET-iOS/blob/main/docs/lights-light.png)
 
 # Installation
 
