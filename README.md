@@ -54,7 +54,7 @@ frontend:
 ## Manual Installation
 
 1. Download the themes folder from this repo
-2. Unzip the contents and extract the themes for into config/ or root directory if running Home Assistant core in Docker.
+2. Unzip the contents and copy the themes directory into config/ or root directory if running Home Assistant core in Docker.
  - The above assumes you don't already have a themes folder, **if you do read below!**
  - If you already have a themes folder, then just extract the BrezNET-iOS folder into config/themes/
 3. Make sure the following is in your configuration.yaml file:
