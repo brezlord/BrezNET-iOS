@@ -67,8 +67,8 @@ BrezNET iOS:
       # Main Interface Colors
       primary-color: rgba(var(--system-blue-dark))
       light-primary-color: rgba(var(--system-gray5-dark))  # (icons on left menu)
-      primary-background-color: rgba(var(--system-gray6-light))
-      secondary-background-color: rgba(var(--system-gray3-light))
+      primary-background-color: rgba(var(--system-gray5-light))
+      secondary-background-color: rgba(var(--system-gray6-light))
       divider-color: rgba(var(--system-gray-light))
       accent-color: rgba(var(--system-blue-light))
       # Text
@@ -88,9 +88,9 @@ BrezNET iOS:
       paper-item-icon-color: rgba(var(--system-gray3-dark))  # also should mini-media-player icon white (but doesn't work by itself)
       paper-item-icon-active-color: rgba(var(--system-green-light))
       # States and Badges
-      state-icon-color: "#FFF"
+      state-icon-color: rgba(var(--system-gray3-dark))
       state-icon-active-color: rgba(var(--system-green-light))
-      state-icon-unavailable-color: rgba(var(--disabled-text-color))
+      state-icon-unavailable-color: rgba(var(--system-gray3-light))
       # Sliders
       paper-slider-knob-color: rgba(var(--system-gray4-light))
       paper-slider-knob-start-color: var(--paper-slider-knob-color)
@@ -109,11 +109,11 @@ BrezNET iOS:
       label-badge-yellow: rgba(var(--system-yellow-light))
       label-badge-gray: rgba(var(--system-grey-light))
       # Cards
-      card-background-color: var(--secondary-background-color)  # Unused entities table background
+      card-background-color: var(--secondary-background-color)
       paper-listbox-background-color: var(--primary-background-color)
       paper-listbox-color: rgba(var(--system-gray3-dark)) #Navigation menu selection text; including the text in top right menu
       ha-card-border-radius: 0px
-      ha-card-background: rgba(var(--system-gray5-light), 0.4)
+      ha-card-background: rgba(var(--system-gray6-light))
       paper-card-background-color: var(--ha-card-background)
       # Toggles
       paper-toggle-button-checked-button-color: rgba(var(--system-gray3-dark))
@@ -152,14 +152,16 @@ BrezNET iOS:
       mini-media-player-base-color: white
       mini-media-player-icon-color: white
       #codemirror-property: var(--accent-color)
+      # Sections
+      ha-view-sections-column-gap: 8px
 # Dark Mode
     dark:
       # Global
       #background-image: "center / cover no-repeat fixed url('/hacsfiles/themes/breznet_ios/light-grey.jpg')"
       #lovelace-background: var(--background-image)
       # Header:
-      app-header-background-color: rgba(var(--system-black))
-      app-header-text-color: rgba(var(--system-gray3-light))
+      app-header-background-color: var(--primary-background-color)
+      app-header-text-color: var(--light-primary-color)
       # Main Interface Colors
       primary-color: rgba(var(--system-blue-light))
       light-primary-color: rgba(var(--system-gray5-light))  # (icons on left menu)
@@ -209,7 +211,7 @@ BrezNET iOS:
       paper-listbox-background-color: var(--primary-background-color)
       paper-listbox-color: rgba(var(--system-gray3-light)) #Navigation menu selection text; including the text in top right menu
       ha-card-border-radius: 0px
-      ha-card-background: rgba(var(--system-gray5-dark), 0.4)
+      ha-card-background: rgba(var(--system-gray6-dark))
       paper-card-background-color: var(--ha-card-background)
       # Toggles
       paper-toggle-button-checked-button-color: rgba(var(--system-gray3-light))
@@ -248,3 +250,5 @@ BrezNET iOS:
       mini-media-player-base-color: white
       mini-media-player-icon-color: white
       #codemirror-property: var(--accent-color)
+      # Sections
+      ha-view-sections-column-gap: 8px
