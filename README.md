@@ -2,6 +2,7 @@
 [![HACS Badge](https://img.shields.io/badge/Available%20in-HACS-41BDF5?logo=home-assistant&logoColor=white)](https://my.home-assistant.io/redirect/hacs_repository/?owner=brezlord=BrezNET-iOS&category=theme)
 [![Latest Release](https://img.shields.io/github/v/release/brezlord/BrezNET-iOS?label=Release&logo=github)](https://github.com/brezlord/BrezNET-iOS/releases)
 [![Last Commit](https://img.shields.io/github/last-commit/brezlord/BrezNET-iOS?label=Last%20commit)](https://github.com/brezlord/BrezNET-iOS/commits/main)
+![HACS Build](https://github.com/brezlord/BrezNET-iOS/workflows/HACS/badge.svg?style=flat-square)
 [![GitHub Stars](https://img.shields.io/github/stars/brezlord/BrezNET-iOS?style=social)](https://github.com/brezlord/BrezNET-iOS/stargazers)
 
 # Home Assistant theme based on Apple iOS colours
