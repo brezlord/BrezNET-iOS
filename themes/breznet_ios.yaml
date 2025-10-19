@@ -95,6 +95,19 @@ BrezNET iOS:
   primary-font-family: "SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif"
   secondary-font-family: "SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif"
 
+  # Global switch CSS
+  card-mod-theme: "BrezNET iOS"
+  card-mod-root: |
+    ha-switch {
+      --mdc-switch-track-height: 12px;
+      --mdc-switch-track-width: 36px;
+      --mdc-switch-track-radius: 50%;
+      --mdc-switch-thumb-radius: 50%;
+      --mdc-switch-thumb-size: 20px;
+      --mdc-theme-primary: rgba(var(--system-green), 1);
+      --mdc-theme-on-primary: rgba(var(--system-gray), 1);
+    }
+
   ####################################
   # MODES
   ####################################
@@ -310,7 +323,7 @@ BrezNET iOS:
 
       # Sections
       ha-view-sections-column-gap: 8px
-
+      
       # Other
       paper-dialog-background-color: rgba(var(--system-gray5-dark),1)
       more-info-header-background: rgba(var(--system-gray4-dark),1)
